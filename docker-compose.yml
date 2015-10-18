@@ -1,0 +1,7 @@
+elasticsearch:
+  image: sectong/elasticsearch
+  ports:
+    - "19200:9200"
+    - "19300:9300"
+  volumes:
+    - ./data:/data
